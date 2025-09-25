@@ -7,7 +7,7 @@ const app = express();
 // Configuration
 const PORT = 3000;
 const HOST = "localhost";
-const API_SERVICE_URL = "https://jsonplaceholder.typicode.com";
+const API_SERVICE_URL = "https://finance.yahoo.com";
 
 // Proxy endpoints
 app.use('/my-service', createProxyMiddleware({
