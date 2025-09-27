@@ -7,7 +7,7 @@ const app = express();
 // Configuration
 const PORT = 3000;
 const HOST = "localhost";
-const API_SERVICE_URL = "https://finance.yahoo.com";
+const API_SERVICE_URL = "https://schneegans.de/web/http-echo/";
 
 // Proxy endpoints
 app.use('/my-service', createProxyMiddleware({
